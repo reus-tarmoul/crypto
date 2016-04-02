@@ -4,10 +4,6 @@
     #include <climits>
     #include <cstdlib>
     using namespace std;
-    inline int modulo (int m, int n)
-    {
-        return m >= 0 ? m % n : ( n - abs ( m % n ) ) % n;
-    }
     int main()
     {
         bool crypter;
